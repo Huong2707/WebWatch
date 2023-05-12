@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 130px;
+  width: 100%;
+  background-color: #000000;
+}
+header .box-header {
+  width: 100%;
+  height: 90px;
+  background-color: red;
+  display: flex;
+}
+header .box-header .chat-content {
+  width: 20%;
+  height: 100%;
+  background-color: darkblue;
+}
+header .box-header .logo-content {
+  width: 50%;
+  height: 100%;
+  background-color: blueviolet;
+}
+header .box-header .item-content {
+    width: 30%;
+    height: 100%;
+    background-color: yellow;
+}
+
+header .box-menu {
+  width: 100%;
+  height: 50px;
+  background-color: aqua;
+}
